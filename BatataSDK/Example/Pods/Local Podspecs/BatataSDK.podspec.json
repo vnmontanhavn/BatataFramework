@@ -1,0 +1,20 @@
+{
+  "name": "BatataSDK",
+  "version": "0.0.1",
+  "summary": "BatataSDK é um teste simples",
+  "description": "Esse framework serve pra testar a criação de frameworks",
+  "homepage": "http://www.twitter.com",
+  "license": "MIT",
+  "authors": {
+    "montanha": "vinicius.newescravo@gmail.com"
+  },
+  "platforms": {
+    "ios": "16.4"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "path": "BatataSDK/"
+  },
+  "source_files": "BatataSDK/**/*.swift",
+  "swift_version": "5.0"
+}

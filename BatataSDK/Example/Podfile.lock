@@ -1,0 +1,16 @@
+PODS:
+  - BatataSDK (0.0.1)
+
+DEPENDENCIES:
+  - BatataSDK (from `../`)
+
+EXTERNAL SOURCES:
+  BatataSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BatataSDK: 0b3810bb58f03bec0767ac70741ec4ff164db088
+
+PODFILE CHECKSUM: ff1e43ec51081f74f1d4d34ef1e2e0b960ee1427
+
+COCOAPODS: 1.12.1

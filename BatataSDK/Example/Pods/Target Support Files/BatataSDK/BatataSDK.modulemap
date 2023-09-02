@@ -1,0 +1,6 @@
+framework module BatataSDK {
+  umbrella header "BatataSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
