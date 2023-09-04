@@ -14,7 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     override func viewDidAppear(_ animated: Bool) {
-//        Batata()
+        Batata().imprimir()
+        print (BatataSDKVersionNumber)
     }
 
 }

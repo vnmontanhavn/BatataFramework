@@ -12,14 +12,14 @@
 		345F30289E541BEF05E00BFFFEB47753 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5CD16051A6E8F77ACC2B5EC182F497 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42775E09D23D2E0682E15630067D8297 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4A0E4E446BEDFF8D0A790B77EC15FEA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		5D330677C240C06A82D4120A9678CE94 /* BatataSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B22BFAD0C8AD09D70C967D09AE446A9 /* BatataSDK-dummy.m */; };
 		739371706038EAC94953D95E73923148 /* Pods-Example-ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF54E9A251968F8BF102DA9BFC40597 /* Pods-Example-ExampleUITests-dummy.m */; };
-		98987C4D556837B23A7ACEB28B3B3757 /* BatataSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = D824B04EBCB26B89DEADD2F917F2F85B /* BatataSDK.docc */; };
 		A613B1DA1AE3EAC83DA22043C62AF878 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A72C02173B39BF0EBE50EACF36E8881C /* BatataSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A696D6D22E4B4B4C9C1AA0B6B80CA629 /* BatataSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A72C02173B39BF0EBE50EACF36E8881C /* BatataSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9382DAEB4BEC17A06AE36D9C97925ED /* BatataSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF5F0E19AED11FF7E2F12566F802830A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C1C1D1BEAC6CFC30C8DB224CCF35E0EA /* BatataSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC9585B66D576C014F87B3C4BDD612A /* BatataSDK-dummy.m */; };
 		C2F7B05729193ABF3D3185603B6DC3BD /* Pods-ExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DBB735FB54499DF2C61DDED5F821C8 /* Pods-ExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4511ECC5824D1A67EE2CDE9F35B70CB /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FBC06CAAEF08C2C01DD809446573E3 /* Pods-Example-dummy.m */; };
+		D7F9BD44ADC85CFB210688D88F59E15F /* Batata.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AA3E779282D281653ACF010C09B19E /* Batata.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,43 +50,43 @@
 		06DF40AC31BCDE82E11A89ACC5C33213 /* Pods-Example-ExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example-ExampleUITests.modulemap"; sourceTree = "<group>"; };
 		083C15FCF1211B5435B3E42C182E7EE3 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		168E30A406BEF02CC78C267AA5469BCF /* Pods-Example-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AC9585B66D576C014F87B3C4BDD612A /* BatataSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BatataSDK-dummy.m"; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example"; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2008F8A1CC62875424F7404BAF8D613C /* Pods-Example-ExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-ExampleUITests-umbrella.h"; sourceTree = "<group>"; };
 		22BCA2BE4DC2A2561F9A4E949116977E /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		368E7EDEA1C94C0053BAC2DBC7EF1C93 /* BatataSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BatataSDK.debug.xcconfig; sourceTree = "<group>"; };
 		37767CDB6517932834F2615A3E40766A /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
 		39ECFFAEE4D2F9A34763392A4E42B689 /* Pods-Example-ExampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-ExampleUITests-Info.plist"; sourceTree = "<group>"; };
-		42CB136A0CB8FAB0005FFE987D93D9A5 /* BatataSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BatataSDK-prefix.pch"; sourceTree = "<group>"; };
+		3C8BC313559956AD0E4D71D565562EF5 /* BatataSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BatataSDK.release.xcconfig; sourceTree = "<group>"; };
 		4A9DFFAED89609D1BBEB26F6B9E67146 /* Pods-ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4B9655A51CF9878681FD3EDD31539379 /* BatataSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BatataSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5861A558A592D9D718BBD94FC2FB8794 /* BatataSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BatataSDK.release.xcconfig; sourceTree = "<group>"; };
-		6210604A348F39EB874D87B39714E5EF /* BatataSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BatataSDK.modulemap; sourceTree = "<group>"; };
+		4FCAD6F40C2FAE8A404CD70337EA044D /* BatataSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BatataSDK-prefix.pch"; sourceTree = "<group>"; };
 		630CABE8F692FCDBFD1B122A2D0CE388 /* Pods-ExampleTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ExampleTests"; path = Pods_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65054D976DC0CD626FCA2E2CEC8E1A25 /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		676775C1FD0DE415C142FC9CA27D637D /* BatataSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BatataSDK-Info.plist"; sourceTree = "<group>"; };
 		69D8E8912FBF116E032DD1EB34ADA5E5 /* BatataSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BatataSDK; path = BatataSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5CBCD908C73EFCED61BD98460F05EF /* Pods-Example-ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7B22BFAD0C8AD09D70C967D09AE446A9 /* BatataSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BatataSDK-dummy.m"; sourceTree = "<group>"; };
+		7D36D85B81E99FDFC8E8B66717D3E5EE /* BatataSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BatataSDK-Info.plist"; sourceTree = "<group>"; };
 		81DBB735FB54499DF2C61DDED5F821C8 /* Pods-ExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExampleTests-umbrella.h"; sourceTree = "<group>"; };
 		8AAFFFF03FE7D0FCEA61724821452BED /* Pods-ExampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		8DF54E9A251968F8BF102DA9BFC40597 /* Pods-Example-ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-ExampleUITests-dummy.m"; sourceTree = "<group>"; };
 		8F44706E4B57CF36D06A180BB27F867C /* Pods-ExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExampleTests.modulemap"; sourceTree = "<group>"; };
-		99FD351426814ED49B4B4644E65EBCA9 /* BatataSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BatataSDK.debug.xcconfig; sourceTree = "<group>"; };
 		9D5CD16051A6E8F77ACC2B5EC182F497 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A696D6D22E4B4B4C9C1AA0B6B80CA629 /* BatataSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BatataSDK-umbrella.h"; sourceTree = "<group>"; };
 		B4A31CBB45DDDEBA8FA40982BEC6791E /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9549DBDC86CFA513217E57A72BD9FB3 /* BatataSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BatataSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2AA3E779282D281653ACF010C09B19E /* Batata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Batata.swift; path = BatataSDK/Batata.swift; sourceTree = "<group>"; };
 		C54078A65F1E57154BA0DF9535462C54 /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		CA86459B834B286D472EF909A2AAD76D /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D01F4C7BCBE74F68C0C06788351AB25D /* Pods-Example-ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D0C2C30C622762D8C6870F740EB57F61 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		D4FE8F3E50AE4C4BB91C118C55D7CAFB /* Pods-ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D824B04EBCB26B89DEADD2F917F2F85B /* BatataSDK.docc */ = {isa = PBXFileReference; includeInIndex = 1; name = BatataSDK.docc; path = BatataSDK/BatataSDK.docc; sourceTree = "<group>"; };
+		D6FFC8D2D24257B8F4CE14B341F6DDD1 /* BatataSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BatataSDK.modulemap; sourceTree = "<group>"; };
 		E5A8990B6200C07FBCB436D4F7700B41 /* Pods-Example-ExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-ExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
 		E8E5A2DDEE01CA7716145CA1B033B7A3 /* Pods-Example-ExampleUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example-ExampleUITests"; path = Pods_Example_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4DE105D59EBDFD32F7430EDE0B2410 /* Pods-ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleTests-dummy.m"; sourceTree = "<group>"; };
 		EDF1B691258C4A37532DD7BC9E5588F0 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		F8FBC06CAAEF08C2C01DD809446573E3 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		F9382DAEB4BEC17A06AE36D9C97925ED /* BatataSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BatataSDK-umbrella.h"; sourceTree = "<group>"; };
 		FE701A3C3F479432B9ACCD94B36B4F83 /* Pods-Example-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,10 +126,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		315077AEFFEC0FC95C8020839BA2350D /* Pod */ = {
+		08FCB83D8BA0D4128111A30422A57238 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4B9655A51CF9878681FD3EDD31539379 /* BatataSDK.podspec */,
+				B9549DBDC86CFA513217E57A72BD9FB3 /* BatataSDK.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -178,7 +178,7 @@
 		68A620DC2D76A23E5827134B4AA20BF5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD243FF04AF8A87564C4770F1659D810 /* BatataSDK */,
+				CE8B1075141214BD58AA686568D9716C /* BatataSDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -193,12 +193,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BD243FF04AF8A87564C4770F1659D810 /* BatataSDK */ = {
+		8126AD45170E745ED9F8A88EFB5A96AD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D824B04EBCB26B89DEADD2F917F2F85B /* BatataSDK.docc */,
-				315077AEFFEC0FC95C8020839BA2350D /* Pod */,
-				D282B8FFEF6EC864F6743441EA782459 /* Support Files */,
+				D6FFC8D2D24257B8F4CE14B341F6DDD1 /* BatataSDK.modulemap */,
+				1AC9585B66D576C014F87B3C4BDD612A /* BatataSDK-dummy.m */,
+				7D36D85B81E99FDFC8E8B66717D3E5EE /* BatataSDK-Info.plist */,
+				4FCAD6F40C2FAE8A404CD70337EA044D /* BatataSDK-prefix.pch */,
+				F9382DAEB4BEC17A06AE36D9C97925ED /* BatataSDK-umbrella.h */,
+				368E7EDEA1C94C0053BAC2DBC7EF1C93 /* BatataSDK.debug.xcconfig */,
+				3C8BC313559956AD0E4D71D565562EF5 /* BatataSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BatataSDK";
+			sourceTree = "<group>";
+		};
+		CE8B1075141214BD58AA686568D9716C /* BatataSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C2AA3E779282D281653ACF010C09B19E /* Batata.swift */,
+				08FCB83D8BA0D4128111A30422A57238 /* Pod */,
+				8126AD45170E745ED9F8A88EFB5A96AD /* Support Files */,
 			);
 			name = BatataSDK;
 			path = ../..;
@@ -221,21 +236,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D282B8FFEF6EC864F6743441EA782459 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6210604A348F39EB874D87B39714E5EF /* BatataSDK.modulemap */,
-				7B22BFAD0C8AD09D70C967D09AE446A9 /* BatataSDK-dummy.m */,
-				676775C1FD0DE415C142FC9CA27D637D /* BatataSDK-Info.plist */,
-				42CB136A0CB8FAB0005FFE987D93D9A5 /* BatataSDK-prefix.pch */,
-				A696D6D22E4B4B4C9C1AA0B6B80CA629 /* BatataSDK-umbrella.h */,
-				99FD351426814ED49B4B4644E65EBCA9 /* BatataSDK.debug.xcconfig */,
-				5861A558A592D9D718BBD94FC2FB8794 /* BatataSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BatataSDK";
 			sourceTree = "<group>";
 		};
 		EBE7EEC219B31D2547DFFD6C6A2E9D63 /* Pods-Example */ = {
@@ -366,7 +366,7 @@
 			buildConfigurationList = 4403AA380A21C980B32C1E76A47D8924 /* Build configuration list for PBXNativeTarget "BatataSDK" */;
 			buildPhases = (
 				A504A37DA20A10AAFF8A236F01511FAF /* Headers */,
-				99C099E069C30CC9544FE5E7EE208A95 /* Sources */,
+				8011BAFBEF597BB99CB85DCA4F7241DC /* Sources */,
 				13D1C9675B1B98CAC66E986ABC60D3EC /* Frameworks */,
 				3229A689A88FDAEF55A882864A99216C /* Resources */,
 			);
@@ -449,20 +449,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8011BAFBEF597BB99CB85DCA4F7241DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7F9BD44ADC85CFB210688D88F59E15F /* Batata.swift in Sources */,
+				C1C1D1BEAC6CFC30C8DB224CCF35E0EA /* BatataSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94361970B2F5AEE30E7702FE1722A738 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				739371706038EAC94953D95E73923148 /* Pods-Example-ExampleUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		99C099E069C30CC9544FE5E7EE208A95 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98987C4D556837B23A7ACEB28B3B3757 /* BatataSDK.docc in Sources */,
-				5D330677C240C06A82D4120A9678CE94 /* BatataSDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,7 +612,7 @@
 		};
 		19861ED1CE4A545702033893FD8A5BA2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5861A558A592D9D718BBD94FC2FB8794 /* BatataSDK.release.xcconfig */;
+			baseConfigurationReference = 3C8BC313559956AD0E4D71D565562EF5 /* BatataSDK.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -790,7 +790,7 @@
 		};
 		8FA6A870D97F401F7D3780D241799076 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99FD351426814ED49B4B4644E65EBCA9 /* BatataSDK.debug.xcconfig */;
+			baseConfigurationReference = 368E7EDEA1C94C0053BAC2DBC7EF1C93 /* BatataSDK.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

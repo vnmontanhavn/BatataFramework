@@ -8,7 +8,7 @@
 import Foundation
 
 public class Batata: NSObject {
-    func imprimir() {
+    public func imprimir() {
         print("Batata")
     }
 }

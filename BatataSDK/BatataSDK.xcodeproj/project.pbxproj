@@ -11,6 +11,7 @@
 		30245C132AA2FC4C0013B389 /* BatataSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30245C082AA2FC4C0013B389 /* BatataSDK.framework */; };
 		30245C182AA2FC4C0013B389 /* BatataSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30245C172AA2FC4C0013B389 /* BatataSDKTests.swift */; };
 		30245C192AA2FC4C0013B389 /* BatataSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 30245C0B2AA2FC4C0013B389 /* BatataSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30245C232AA6465C0013B389 /* Batata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30245C222AA6465C0013B389 /* Batata.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		30245C0C2AA2FC4C0013B389 /* BatataSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = BatataSDK.docc; sourceTree = "<group>"; };
 		30245C122AA2FC4C0013B389 /* BatataSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatataSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30245C172AA2FC4C0013B389 /* BatataSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatataSDKTests.swift; sourceTree = "<group>"; };
+		30245C222AA6465C0013B389 /* Batata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Batata.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				30245C0B2AA2FC4C0013B389 /* BatataSDK.h */,
+				30245C222AA6465C0013B389 /* Batata.swift */,
 				30245C0C2AA2FC4C0013B389 /* BatataSDK.docc */,
 			);
 			path = BatataSDK;
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30245C232AA6465C0013B389 /* Batata.swift in Sources */,
 				30245C0D2AA2FC4C0013B389 /* BatataSDK.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +406,7 @@
 		30245C202AA2FC4C0013B389 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X98529GHL3;
@@ -418,6 +423,7 @@
 		30245C212AA2FC4C0013B389 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X98529GHL3;

@@ -1,5 +1,5 @@
 PODS:
-  - BatataSDK (0.0.1)
+  - BatataSDK (1.0.1)
 
 DEPENDENCIES:
   - BatataSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BatataSDK: 0b3810bb58f03bec0767ac70741ec4ff164db088
+  BatataSDK: 65ba94025613b8f2a852a43329687bef49152ddc
 
 PODFILE CHECKSUM: ff1e43ec51081f74f1d4d34ef1e2e0b960ee1427
 
